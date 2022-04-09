@@ -1,0 +1,97 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.head{
+  background-image: url('FLR_IPpWYBM4lL1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.nav ul{
+  display: flex;
+  justify-content: right;
+}
+.nav li{
+  display: flex;
+  list-style-type: none;
+  padding-right: 2%;
+}
+.nav a{
+  color: black;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.top{
+  display: flex;
+  height: 400px ;
+  
+}
+.top .content {
+  display: flex;
+  margin-left: 10%;
+  margin-top: 2%;
+  flex-direction: column;
+   
+}
+.content h1{
+  font-size: 3rem;
+}
+.content form{
+  height: 30px;
+}
+.content input {
+  height: 100%;
+  padding: 10px 5px;
+}
+.social{
+  margin-top: 5px;
+}
+ul.links{
+  display: flex;
+
+}.links li{
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding-right: 20px;
+}
+.links img {
+  padding-right: 5px;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
